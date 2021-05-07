@@ -14,7 +14,6 @@ class Car extends Component {
     this.onChangeDoors = this.onChangeDoors.bind(this);
 
     this.getCar = this.getCar.bind(this);
-    // this.updateStatus = this.updateStatus.bind(this);
     this.updateCar = this.updateCar.bind(this);
     this.removeCar = this.removeCar.bind(this);
 
@@ -232,7 +231,7 @@ class Car extends Component {
         ) : (
           <div>
             <br />
-            <p>Please click on a Tutorial...</p>
+            <p>Please click on a Car...</p>
           </div>
         )}
       </div>
