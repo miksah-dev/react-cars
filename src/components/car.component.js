@@ -213,19 +213,21 @@ class Car extends Component {
             </form>
   
             <button
-              className="badge badge-danger mr-2"
+              type="button"
+              className="btn btn-danger"
               onClick={this.removeCar}
             >
               Delete
             </button>
 
             <button
-              type="submit"
-              className="badge badge-success"
+              type="button"
+              className="btn btn-success"
               onClick={this.updateCar}
             >
               Update
             </button>
+            
             <p>{this.state.message}</p>
           </div>
         ) : (

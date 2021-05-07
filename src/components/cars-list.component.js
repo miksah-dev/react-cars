@@ -157,7 +157,8 @@ class CarsList extends Component {
 
               <Link
                 to={"/cars/" + currentCar.id}
-                className="badge badge-warning"
+                type="button"
+                className="btn btn-warning"
               >
                 Edit
               </Link>
