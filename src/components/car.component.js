@@ -151,7 +151,7 @@ class Car extends Component {
             <h4>Car</h4>
             <form>
               <div className="form-group">
-                <label htmlFor="title">Title</label>
+                <label htmlFor="brand">Brand</label>
                 <input
                   type="text"
                   className="form-control"
@@ -161,7 +161,7 @@ class Car extends Component {
                 />
               </div>
               <div className="form-group">
-                <label htmlFor="model">Title</label>
+                <label htmlFor="model">Model</label>
                 <input
                   type="text"
                   className="form-control"
@@ -171,7 +171,7 @@ class Car extends Component {
                 />
               </div>
               <div className="form-group">
-                <label htmlFor="modelyear">Title</label>
+                <label htmlFor="modelyear">Model year</label>
                 <input
                   type="number"
                   className="form-control"
@@ -181,7 +181,7 @@ class Car extends Component {
                 />
               </div>
               <div className="form-group">        
-                <label htmlFor="color">Title</label>
+                <label htmlFor="color">Color</label>
                 <input
                   type="text"
                   className="form-control"
@@ -191,7 +191,7 @@ class Car extends Component {
                 />  
               </div>        
               <div className="form-group">
-                <label htmlFor="chassis">Title</label>
+                <label htmlFor="chassis">Chassis</label>
                 <input
                   type="text"
                   className="form-control"
@@ -201,7 +201,7 @@ class Car extends Component {
                 />
               </div>
               <div className="form-group">
-                <label htmlFor="doors">Title</label>
+                <label htmlFor="doors">Doors</label>
                 <input
                   type="number"
                   className="form-control"

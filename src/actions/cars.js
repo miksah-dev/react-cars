@@ -82,6 +82,7 @@ export const deleteAllCars = () => async (dispatch) => {
 
 export const findCarByBrand = (brand) => async (dispatch) => {
   try {
+    console.log("find: ", brand)
     const res = await CarDataService.findByBrand(brand);
 
     dispatch({

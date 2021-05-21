@@ -9,7 +9,7 @@ class CarsList extends Component {
     this.onChangeSearchBrand = this.onChangeSearchBrand.bind(this);
     this.refreshData = this.refreshData.bind(this);
     this.setActiveCar = this.setActiveCar.bind(this);
-    this.findCarByBrand = this.findCarByBrand.bind(this);
+    this.findByBrand = this.findByBrand.bind(this);
     this.removeAllCars = this.removeAllCars.bind(this);
 
     this.state = {
@@ -56,8 +56,9 @@ class CarsList extends Component {
       });
   }
 
-  findCarByBrand() {
+  findByBrand() {
     this.refreshData();
+    console.log("find by perkele !!!", this.state.searchBrand)
 
     this.props.findCarByBrand(this.state.searchBrand);
   }
@@ -81,7 +82,7 @@ class CarsList extends Component {
                   <button
                     className="btn btn-outline-secondary"
                     type="button"
-                    onClick={this.findCarByBrand}
+                    onClick={this.findByBrand}
                   >
                     Search
                   </button>

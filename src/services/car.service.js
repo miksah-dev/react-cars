@@ -24,8 +24,9 @@ class CarDataService {
     return http.delete(`/cars`);
   }
 
-  findByBrand(Brand) {
-    return http.get(`/cars?Brand=${Brand}`);
+  findByBrand(brand) {
+    console.log("dfsfs", brand);
+    return http.get(`/cars?brand=${brand}`);
   }
 }
 
